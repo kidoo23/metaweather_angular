@@ -1,0 +1,16 @@
+<nav>
+  <ol>
+    <li><a routerLink="/location">검색</a></li>
+    <li><a routerLink="/settings">설정</a></li>
+  </ol>
+</nav>
+<div class="icon" [appWeatherIcon]="weather.condition"></div>
+<ng-container *ngIf="temperature$ | async; let temperature">
+  <div class="current">
+    현재 {{ weather.temp | conversionTemp: temperature }}
+  </div>
+  <div class="min_max">
+    <div>최고 {{ weather.maxTemp | conversionTemp: temperature }}</div>
+    <div>최저 {{ weather.minTemp | conversionTemp: temperature }}</div>
+  </div>
+</ng-container>

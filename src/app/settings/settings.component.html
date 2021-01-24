@@ -1,0 +1,23 @@
+<a routerLink="/weather">뒤로가기</a><br />
+
+<ng-container *ngIf="temperatureUnit$ | async; let temperatureUnit">
+  <!-- <h3>{{ temperatureUnit }}</h3> -->
+  <label for="celsius">celsius</label
+  ><input
+    [checked]="temperatureUnit === temperatureUnits.celsius"
+    type="radio"
+    id="celsius"
+    name="unit"
+    value="celsius"
+    (change)="onToggle()"
+  /><br />
+  <label for="fahrenheit">fahrenheit</label
+  ><input
+    [checked]="temperatureUnit === temperatureUnits.fahrenheit"
+    type="radio"
+    value="id"
+    name="unit"
+    value="fahrenheit"
+    (change)="onToggle()"
+  />
+</ng-container>

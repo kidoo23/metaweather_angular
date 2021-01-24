@@ -1,0 +1,4 @@
+{
+  "/api/location/search\\?query=:city": "/city?q=:city",
+  "/api/location/:location": "/location/:location"
+}

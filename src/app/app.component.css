@@ -1,0 +1,19 @@
+.w_clear {
+  background-image: "assets/clear.png";
+}
+
+.w_snow {
+  background-image: "assets/snow.png";
+}
+
+.w_cloudy {
+  background-image: "assets/cloudy.png";
+}
+
+.w_rainy {
+  background-image: "assets/rainy.png";
+}
+
+.w_thunderstorm {
+  background-image: "assets/thunderstorm.png";
+}

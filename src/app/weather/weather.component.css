@@ -1,0 +1,25 @@
+.icon {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.w_clear {
+  background-image: url("../../assets/clear.png");
+}
+
+.w_snow {
+  background-image: url("../../assets/snow.png");
+}
+
+.w_cloudy {
+  background-image: url("../../assets/cloudy.png");
+}
+
+.w_rainy {
+  background-image: url("../../assets/rainy.png");
+}
+
+.w_thunderstorm {
+  background-image: url("../../assets/thunderstorm.png");
+}
